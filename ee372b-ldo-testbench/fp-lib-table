@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "Quick-Pak") (type "KiCad") (uri "/Users/natagoh/Documents/Stanford/ee372b/Quick-Pak.pretty") (options "") (descr ""))
+	(lib (name "Quick-Pak") (type "KiCad") (uri "E:/Stanford/EE372B/Quick-Pak.pretty") (options "") (descr ""))
 )
