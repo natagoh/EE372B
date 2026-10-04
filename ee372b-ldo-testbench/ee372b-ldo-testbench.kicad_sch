@@ -7200,7 +7200,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 251.46) (xy 156.21 251.46)
+			(xy 142.24 251.46) (xy 156.21 251.46)
 		)
 		(stroke
 			(width 0)
@@ -7370,7 +7370,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 251.46) (xy 142.24 251.46)
+			(xy 123.19 251.46) (xy 134.62 251.46)
 		)
 		(stroke
 			(width 0)
@@ -21263,7 +21263,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 251.46 90)
+		(at 138.43 251.46 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21274,7 +21274,7 @@
 		(fields_autoplaced yes)
 		(uuid "83f3216e-0b16-4462-89f5-95ba7f0e7d9e")
 		(property "Reference" "R55"
-			(at 146.05 245.11 90)
+			(at 138.43 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21284,7 +21284,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 146.05 247.65 90)
+			(at 138.43 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21294,7 +21294,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 146.05 253.238 90)
+			(at 138.43 253.238 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21305,7 +21305,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 146.05 251.46 0)
+			(at 138.43 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21316,7 +21316,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0 OHM JUMPER 1/2W 0805"
-			(at 146.05 251.46 0)
+			(at 138.43 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21327,7 +21327,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 146.05 251.46 0)
+			(at 138.43 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21338,7 +21338,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 146.05 251.46 0)
+			(at 138.43 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21349,7 +21349,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08050000Z0EAHP/2222316"
-			(at 146.05 251.46 0)
+			(at 138.43 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21360,7 +21360,7 @@
 			)
 		)
 		(property "Distrbuter Link 2" "https://www.mouser.com/en/ProductDetail/Vishay/CRCW08050000Z0EAHP?qs=pTGEtN%252BMLlDLrJUqQmN2jA%3D%3D"
-			(at 146.05 251.46 0)
+			(at 138.43 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

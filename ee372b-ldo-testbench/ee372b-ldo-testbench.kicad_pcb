@@ -17210,7 +17210,7 @@
 		(property "Reference" "R55"
 			(at 0 -1.65 0)
 			(layer "F.SilkS")
-			(uuid "2fab6c09-d897-4e56-8b9a-3e0a954c9f49")
+			(uuid "7b305e1f-9992-44e0-8b8d-36cf7aa3bc1c")
 			(effects
 				(font
 					(size 1 1)
@@ -17221,7 +17221,7 @@
 		(property "Value" "0"
 			(at 0 1.65 0)
 			(layer "F.Fab")
-			(uuid "1c26e002-d99a-4b18-86e6-388cfff529c5")
+			(uuid "ad0a7487-6121-4eb5-8549-232ac6ad07c8")
 			(effects
 				(font
 					(size 1 1)
@@ -17233,7 +17233,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd1cda00-de64-4173-9913-cfddd71004f3")
+			(uuid "7c661543-4204-4f99-8e96-612c66eebcfe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17244,7 +17244,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff95b3fe-ea57-42cd-9bd3-1acc3f4171e9")
+			(uuid "435ab8db-f598-458f-97c8-74e3f2f062c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19336,15 +19336,6 @@
 		(path "/9bec7bce-4e57-4f0c-9244-044e35213373")
 		(sheetname "/")
 		(sheetfile "ee372b-ldo-testbench.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "19" "1" "3" "33" "4" "6" "2" "7" "8" "13" "14" "18" "16" "20"
-					"17" "22" "21" "23" "24" "25" "27" "26" "32" "28" "29" "30" "31" "5"
-					"15" "9" "10" "11" "12"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19429,40 +19420,40 @@
 			(uuid "b807ec60-97d9-4122-a778-1d79bc18ce07")
 		)
 		(fp_line
-			(start -6.9 -6.9)
-			(end 6.9 -6.9)
+			(start -3.944455 -3.944455)
+			(end 3.944455 -3.944455)
 			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "e84b3f0f-9c9f-426d-a60c-34ef3d706a47")
-		)
-		(fp_line
-			(start -6.9 6.9)
-			(end -6.9 -6.9)
-			(stroke
-				(width 0.05)
+				(width 0.028583)
 				(type default)
 			)
 			(layer "F.CrtYd")
 			(uuid "7c83f61b-930e-4bcb-92b3-b1b1105c8199")
 		)
 		(fp_line
-			(start 6.9 -6.9)
-			(end 6.9 6.9)
+			(start -3.944455 3.944455)
+			(end -3.944455 -3.944455)
 			(stroke
-				(width 0.05)
+				(width 0.028583)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "e84b3f0f-9c9f-426d-a60c-34ef3d706a47")
+		)
+		(fp_line
+			(start 3.944455 -3.944455)
+			(end 3.944455 3.944455)
+			(stroke
+				(width 0.028583)
 				(type default)
 			)
 			(layer "F.CrtYd")
 			(uuid "5fd4edb2-3eac-4c91-befe-44df8ef15287")
 		)
 		(fp_line
-			(start 6.9 6.9)
-			(end -6.9 6.9)
+			(start 3.944455 3.944455)
+			(end -3.944455 3.944455)
 			(stroke
-				(width 0.05)
+				(width 0.028583)
 				(type default)
 			)
 			(layer "F.CrtYd")
@@ -23272,7 +23263,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "90df32d7-23bf-4d81-aa09-5970756903da")
-		(at 571.5375 151.99)
+		(at 537.5 93)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
