@@ -4407,6 +4407,16 @@
 		)
 		(uuid "8c540af6-0ebd-46d0-a464-73da997d5445")
 	)
+	(text "C_LOAD capacitors\n"
+		(exclude_from_sim no)
+		(at 314.96 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9cd850ec-2571-4bd7-99e2-7c55dbab3f5e")
+	)
 	(text "MSB"
 		(exclude_from_sim no)
 		(at 130.048 221.488 0)
@@ -4419,7 +4429,7 @@
 	)
 	(text "Output housekeeping circuit"
 		(exclude_from_sim no)
-		(at 292.608 18.542 0)
+		(at 297.18 36.576 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4454,7 +4464,7 @@
 		(uuid "025edaaa-aedf-46fa-9078-50c7a3ac5d8e")
 	)
 	(junction
-		(at 335.28 53.34)
+		(at 340.36 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06a86554-93aa-4fa7-ac94-53d1a5e27db8")
@@ -4466,7 +4476,7 @@
 		(uuid "124dcd45-361c-4262-9a03-ba3e6e73d735")
 	)
 	(junction
-		(at 298.45 53.34)
+		(at 303.53 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c82f8af-b9c1-480f-93cc-ced3ed2f1d1f")
@@ -4526,7 +4536,7 @@
 		(uuid "34cdffad-0b26-447b-969d-7cf0c6536ac9")
 	)
 	(junction
-		(at 365.76 53.34)
+		(at 370.84 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cde1975-d64b-4974-9d76-be6d8b9722ed")
@@ -4550,7 +4560,7 @@
 		(uuid "6321a072-6f86-4c38-b1bd-dd6a51fd860b")
 	)
 	(junction
-		(at 365.76 66.04)
+		(at 370.84 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65842520-8821-40ed-9056-66dfad86aea8")
@@ -4562,7 +4572,7 @@
 		(uuid "6f0a9a27-4928-4dac-baf8-de449b729536")
 	)
 	(junction
-		(at 365.76 68.58)
+		(at 370.84 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76b24f6b-25f5-4256-93f9-a486ebad20be")
@@ -4664,7 +4674,7 @@
 		(uuid "ce8afd57-f533-429c-ba22-49f291245665")
 	)
 	(junction
-		(at 309.88 53.34)
+		(at 314.96 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e430a7d7-bc86-4f5b-89c9-62fa4e00f9fd")
@@ -4676,7 +4686,7 @@
 		(uuid "e4b97d4a-e5b2-4130-adc3-a2fe62550a51")
 	)
 	(junction
-		(at 365.76 71.12)
+		(at 370.84 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec8317b8-19f9-42ee-be05-8a63b9c61719")
@@ -4712,7 +4722,7 @@
 		(uuid "fb23c1f9-8de4-4652-986d-d096d4c02b64")
 	)
 	(junction
-		(at 322.58 53.34)
+		(at 327.66 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff860557-46eb-4493-acf9-a42776e75177")
@@ -4809,7 +4819,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 66.04) (xy 365.76 68.58)
+			(xy 370.84 92.71) (xy 370.84 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4839,7 +4849,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 60.96) (xy 365.76 60.96)
+			(xy 367.03 87.63) (xy 370.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4909,7 +4919,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 71.12) (xy 365.76 71.12)
+			(xy 367.03 97.79) (xy 370.84 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4939,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 53.34) (xy 322.58 53.34)
+			(xy 314.96 80.01) (xy 327.66 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4989,7 +4999,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 53.34) (xy 309.88 53.34)
+			(xy 303.53 80.01) (xy 314.96 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4999,7 +5009,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 53.34) (xy 309.88 44.45)
+			(xy 314.96 80.01) (xy 314.96 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5016,16 +5026,6 @@
 			(type default)
 		)
 		(uuid "383fb3b9-3493-40de-9526-2f48c1a0856b")
-	)
-	(wire
-		(pts
-			(xy 264.16 53.34) (xy 264.16 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "399911fa-d4e3-47c4-8597-0bbefc61d78d")
 	)
 	(wire
 		(pts
@@ -5089,16 +5089,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 80.01) (xy 245.11 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4064de64-966e-48ea-911b-71f7d5463a7b")
-	)
-	(wire
-		(pts
 			(xy 139.7 264.16) (xy 137.16 264.16)
 		)
 		(stroke
@@ -5119,7 +5109,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 53.34) (xy 335.28 53.34)
+			(xy 327.66 80.01) (xy 340.36 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5239,7 +5229,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 53.34) (xy 365.76 60.96)
+			(xy 370.84 80.01) (xy 370.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5299,7 +5289,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 53.34) (xy 345.44 53.34)
+			(xy 340.36 80.01) (xy 350.52 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5409,7 +5399,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 53.34) (xy 298.45 44.45)
+			(xy 303.53 80.01) (xy 303.53 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5436,6 +5426,16 @@
 			(type default)
 		)
 		(uuid "6c187253-0d15-47de-8041-490ef199eaa8")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7aa6cb-86e2-4ee9-9c59-c46c7b82dd78")
 	)
 	(wire
 		(pts
@@ -5479,13 +5479,23 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 66.04) (xy 365.76 66.04)
+			(xy 367.03 92.71) (xy 370.84 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6fef7386-beb3-4d3d-9299-94ee78623f58")
+	)
+	(wire
+		(pts
+			(xy 245.11 64.77) (xy 254 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703e23b0-c804-439a-9571-274b0b4caadc")
 	)
 	(wire
 		(pts
@@ -5509,7 +5519,17 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 71.12) (xy 365.76 72.39)
+			(xy 245.11 80.01) (xy 303.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725a8341-d7cf-45a4-96ce-808ee99a6a19")
+	)
+	(wire
+		(pts
+			(xy 370.84 97.79) (xy 370.84 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5579,7 +5599,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 68.58) (xy 365.76 68.58)
+			(xy 367.03 95.25) (xy 370.84 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5589,7 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 36.83) (xy 298.45 33.02)
+			(xy 303.53 63.5) (xy 303.53 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5649,7 +5669,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 36.83) (xy 309.88 33.02)
+			(xy 314.96 63.5) (xy 314.96 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5699,7 +5719,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 36.83) (xy 322.58 33.02)
+			(xy 327.66 63.5) (xy 327.66 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5739,7 +5759,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 50.8) (xy 365.76 53.34)
+			(xy 370.84 77.47) (xy 370.84 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5869,16 +5889,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 53.34) (xy 298.45 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "affc49fb-c8b3-41bc-b776-d1e08f33bc7f")
-	)
-	(wire
-		(pts
 			(xy 44.45 233.68) (xy 44.45 236.22)
 		)
 		(stroke
@@ -5919,7 +5929,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 63.5) (xy 365.76 66.04)
+			(xy 370.84 90.17) (xy 370.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5939,7 +5949,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 53.34) (xy 365.76 53.34)
+			(xy 358.14 80.01) (xy 370.84 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6019,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 53.34) (xy 393.7 53.34)
+			(xy 370.84 80.01) (xy 398.78 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6059,7 +6069,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 63.5) (xy 365.76 63.5)
+			(xy 367.03 90.17) (xy 370.84 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6119,7 +6129,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 53.34) (xy 322.58 44.45)
+			(xy 327.66 80.01) (xy 327.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6139,7 +6149,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 49.53) (xy 335.28 53.34)
+			(xy 340.36 76.2) (xy 340.36 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6299,7 +6309,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 68.58) (xy 365.76 71.12)
+			(xy 370.84 95.25) (xy 370.84 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6378,7 +6388,7 @@
 		(uuid "08ba0cca-fc0f-4d89-b354-820d4698e62c")
 	)
 	(label "VOUT"
-		(at 381 53.34 0)
+		(at 386.08 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6437,8 +6447,18 @@
 		)
 		(uuid "2e4f3f08-f562-4dbb-9440-10f084e855cd")
 	)
+	(label "BGR_VREF"
+		(at 172.72 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35f59c38-01d8-4bdb-9383-5525a21729bf")
+	)
 	(label "LDO_VOUT"
-		(at 325.12 53.34 0)
+		(at 330.2 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6669,7 +6689,7 @@
 				)
 			)
 		)
-		(property "Value" "VIN"
+		(property "Value" "VOUT"
 			(at 34.925 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7307,7 +7327,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 365.76 50.8 0)
+		(at 370.84 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7318,7 +7338,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d306c23-05fa-4dc5-a115-ddb193374af0")
 		(property "Reference" "TP3"
-			(at 368.3 46.2279 0)
+			(at 373.38 72.8979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7329,7 +7349,7 @@
 			)
 		)
 		(property "Value" "OUT_S1"
-			(at 368.3 48.7679 0)
+			(at 373.38 75.4379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7340,7 +7360,7 @@
 			)
 		)
 		(property "Footprint" "Keystone 5016 testpoint:KEYSTONE_5016"
-			(at 370.84 50.8 0)
+			(at 375.92 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7351,7 +7371,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p61.pdf"
-			(at 370.84 50.8 0)
+			(at 375.92 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7362,7 +7382,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 365.76 50.8 0)
+			(at 370.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7373,7 +7393,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 365.76 50.8 0)
+			(at 370.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7384,7 +7404,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5016"
-			(at 365.76 50.8 0)
+			(at 370.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7395,7 +7415,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA"
-			(at 365.76 50.8 0)
+			(at 370.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7406,7 +7426,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Keystone-Electronics/5016?qs=qOqV1E1P08QbNAXL8l0G1A%3D%3D"
-			(at 365.76 50.8 0)
+			(at 370.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7719,7 +7739,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 322.58 33.02 180)
+		(at 327.66 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7730,7 +7750,7 @@
 		(fields_autoplaced yes)
 		(uuid "18ad9bc5-70e0-448f-8808-1dbe560d8405")
 		(property "Reference" "#PWR025"
-			(at 322.58 26.67 0)
+			(at 327.66 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7741,7 +7761,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 322.58 27.94 0)
+			(at 327.66 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7751,7 +7771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 33.02 0)
+			(at 327.66 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7762,7 +7782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 33.02 0)
+			(at 327.66 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7773,7 +7793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 322.58 33.02 0)
+			(at 327.66 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10009,7 +10029,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 298.45 40.64 180)
+		(at 303.53 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10020,7 +10040,7 @@
 		(fields_autoplaced yes)
 		(uuid "5441e212-a187-4204-a9c4-76b11dbbeba1")
 		(property "Reference" "C7"
-			(at 294.64 41.9101 0)
+			(at 299.72 68.5801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10031,7 +10051,7 @@
 			)
 		)
 		(property "Value" "0.1nF"
-			(at 294.64 39.3701 0)
+			(at 299.72 66.0401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10042,7 +10062,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 297.4848 36.83 0)
+			(at 302.5648 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10053,7 +10073,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 298.45 40.64 0)
+			(at 303.53 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10064,7 +10084,7 @@
 			)
 		)
 		(property "Description" "CAP CER 100PF 10V X7R 0805"
-			(at 298.45 40.64 0)
+			(at 303.53 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10075,7 +10095,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 298.45 40.64 0)
+			(at 303.53 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10086,7 +10106,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0805C101K8RACTU"
-			(at 298.45 40.64 0)
+			(at 303.53 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10097,7 +10117,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/kemet/C0805C101K8RACTU/7382119"
-			(at 298.45 40.64 0)
+			(at 303.53 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10108,7 +10128,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/KEMET/C0805C101K8RACTU?qs=ds50AKTGxA%252BdLp9SK1PCOA%3D%3D"
-			(at 298.45 40.64 0)
+			(at 303.53 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10956,7 +10976,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 335.28 49.53 0)
+		(at 340.36 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10967,7 +10987,7 @@
 		(fields_autoplaced yes)
 		(uuid "68a6c160-ae35-4d1a-b495-c8cef23b8820")
 		(property "Reference" "TP4"
-			(at 337.82 44.9579 0)
+			(at 342.9 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10978,7 +10998,7 @@
 			)
 		)
 		(property "Value" "OUT_S2"
-			(at 337.82 47.4979 0)
+			(at 342.9 74.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10989,7 +11009,7 @@
 			)
 		)
 		(property "Footprint" "Keystone 5016 testpoint:KEYSTONE_5016"
-			(at 340.36 49.53 0)
+			(at 345.44 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11000,7 +11020,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p61.pdf"
-			(at 340.36 49.53 0)
+			(at 345.44 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11011,7 +11031,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 335.28 49.53 0)
+			(at 340.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11022,7 +11042,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 335.28 49.53 0)
+			(at 340.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,7 +11053,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5016"
-			(at 335.28 49.53 0)
+			(at 340.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11044,7 +11064,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA"
-			(at 335.28 49.53 0)
+			(at 340.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11055,7 +11075,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Keystone-Electronics/5016?qs=qOqV1E1P08QbNAXL8l0G1A%3D%3D"
-			(at 335.28 49.53 0)
+			(at 340.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11079,7 +11099,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 322.58 40.64 180)
+		(at 327.66 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11090,7 +11110,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a454fbf-9ee1-4f7c-a467-0d7d883ae5f4")
 		(property "Reference" "C10"
-			(at 318.77 41.9101 0)
+			(at 323.85 68.5801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11101,7 +11121,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 318.77 39.3701 0)
+			(at 323.85 66.0401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11112,7 +11132,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 321.6148 36.83 0)
+			(at 326.6948 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11123,7 +11143,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 322.58 40.64 0)
+			(at 327.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11134,7 +11154,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 10V X7R 0805"
-			(at 322.58 40.64 0)
+			(at 327.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11145,7 +11165,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 322.58 40.64 0)
+			(at 327.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11156,7 +11176,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0805C106K8RACTU"
-			(at 322.58 40.64 0)
+			(at 327.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11167,7 +11187,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/kemet/C0805C106K8RACTU/3317617"
-			(at 322.58 40.64 0)
+			(at 327.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11178,7 +11198,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/KEMET/C0805C106K8RACTU?qs=iP0bYSAMAFqUyr6Ql6ZwXw%3D%3D"
-			(at 322.58 40.64 0)
+			(at 327.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11951,7 +11971,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 309.88 33.02 180)
+		(at 314.96 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11962,7 +11982,7 @@
 		(fields_autoplaced yes)
 		(uuid "700631d7-709c-4e07-acf8-9505785bdf69")
 		(property "Reference" "#PWR026"
-			(at 309.88 26.67 0)
+			(at 314.96 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11973,7 +11993,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 309.88 27.94 0)
+			(at 314.96 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11983,7 +12003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 33.02 0)
+			(at 314.96 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11994,7 +12014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 33.02 0)
+			(at 314.96 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12005,7 +12025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 309.88 33.02 0)
+			(at 314.96 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12757,7 +12777,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 309.88 40.64 180)
+		(at 314.96 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12768,7 +12788,7 @@
 		(fields_autoplaced yes)
 		(uuid "865f4095-5b0e-43a9-a69a-8e756eca9ce5")
 		(property "Reference" "C9"
-			(at 306.07 41.9101 0)
+			(at 311.15 68.5801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12779,7 +12799,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 306.07 39.3701 0)
+			(at 311.15 66.0401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12790,7 +12810,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 308.9148 36.83 0)
+			(at 313.9948 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12801,7 +12821,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 309.88 40.64 0)
+			(at 314.96 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12812,7 +12832,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 10V X7R 0805"
-			(at 309.88 40.64 0)
+			(at 314.96 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12823,7 +12843,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 309.88 40.64 0)
+			(at 314.96 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12834,7 +12854,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0805C104K8RACTU"
-			(at 309.88 40.64 0)
+			(at 314.96 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12845,7 +12865,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/kemet/C0805C104K8RACTU/2211745"
-			(at 309.88 40.64 0)
+			(at 314.96 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12856,7 +12876,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/KEMET/C0805C104K8RACTU?qs=jbCUrP3sAgQ5jyCqBgnvEg%3D%3D"
-			(at 309.88 40.64 0)
+			(at 314.96 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12965,7 +12985,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 298.45 33.02 180)
+		(at 303.53 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12976,7 +12996,7 @@
 		(fields_autoplaced yes)
 		(uuid "914467c3-8bdf-44f1-8b39-bc2c5912baf0")
 		(property "Reference" "#PWR027"
-			(at 298.45 26.67 0)
+			(at 303.53 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12987,7 +13007,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 298.45 27.94 0)
+			(at 303.53 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12997,7 +13017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 33.02 0)
+			(at 303.53 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13008,7 +13028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 33.02 0)
+			(at 303.53 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13019,7 +13039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 298.45 33.02 0)
+			(at 303.53 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14919,7 +14939,7 @@
 	)
 	(symbol
 		(lib_id "SMA-J-P-H-ST-TH1:SMA-J-P-H-ST-TH1")
-		(at 359.41 60.96 0)
+		(at 364.49 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14930,7 +14950,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5ea070a-e212-406c-914b-9e33fb6eec90")
 		(property "Reference" "J10"
-			(at 359.0925 54.61 0)
+			(at 364.1725 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14940,7 +14960,7 @@
 			)
 		)
 		(property "Value" "OUT_S"
-			(at 359.0925 57.15 0)
+			(at 364.1725 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14950,7 +14970,7 @@
 			)
 		)
 		(property "Footprint" "TPS7A7001_Evaluation_Board_footprint_lib:SAMTEC_SMA-J-P-H-ST-TH1"
-			(at 359.41 60.96 0)
+			(at 364.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14962,7 +14982,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-th1-mkt.pdf"
-			(at 359.41 60.96 0)
+			(at 364.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14973,7 +14993,7 @@
 			)
 		)
 		(property "Description" "CONN SMA JACK STR 50 OHM PCB"
-			(at 359.41 60.96 0)
+			(at 364.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14984,7 +15004,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 359.41 60.96 0)
+			(at 364.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14996,7 +15016,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SMA-J-P-H-ST-TH1"
-			(at 359.41 60.96 0)
+			(at 364.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15008,7 +15028,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-TH1/2345104?s=N4IgTCBcDaIMoFkCCBaAUigCigEiuAKigTgIwgC6AvkA"
-			(at 359.41 60.96 0)
+			(at 364.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15019,7 +15039,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Samtec/SMA-J-P-H-ST-TH1?qs=bkXRl3BLxbHdaAB2Qwy6zw%3D%3D"
-			(at 359.41 60.96 0)
+			(at 364.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15875,7 +15895,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 349.25 53.34 90)
+		(at 354.33 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15886,7 +15906,7 @@
 		(fields_autoplaced yes)
 		(uuid "d746a2a8-1b87-43c9-8e6c-06a8851d6127")
 		(property "Reference" "R59"
-			(at 349.25 46.99 90)
+			(at 354.33 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15896,7 +15916,7 @@
 			)
 		)
 		(property "Value" "100m"
-			(at 349.25 49.53 90)
+			(at 354.33 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15906,7 +15926,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 349.25 55.118 90)
+			(at 354.33 81.788 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15917,7 +15937,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-PA_E_51_ROHS"
-			(at 349.25 53.34 0)
+			(at 354.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15928,7 +15948,7 @@
 			)
 		)
 		(property "Description" "RES 0.1 OHM 1% 2W 2512"
-			(at 349.25 53.34 0)
+			(at 354.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15939,7 +15959,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 349.25 53.34 0)
+			(at 354.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15950,7 +15970,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "PA2512FKE7W0R1E"
-			(at 349.25 53.34 0)
+			(at 354.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15961,7 +15981,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/yageo/PA2512FKE7W0R1E/17005749"
-			(at 349.25 53.34 0)
+			(at 354.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15972,7 +15992,7 @@
 			)
 		)
 		(property "Distrbuter Link 2" ""
-			(at 349.25 53.34 0)
+			(at 354.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16699,7 +16719,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 365.76 72.39 0)
+		(at 370.84 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16710,7 +16730,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5f5578a-7cd9-4b36-bd79-5fef89372c8e")
 		(property "Reference" "#PWR019"
-			(at 365.76 78.74 0)
+			(at 370.84 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16721,7 +16741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 77.47 0)
+			(at 370.84 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16731,7 +16751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 72.39 0)
+			(at 370.84 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16742,7 +16762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 72.39 0)
+			(at 370.84 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16753,7 +16773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 72.39 0)
+			(at 370.84 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17495,7 +17515,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 398.78 53.34 0)
+		(at 403.86 80.01 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17506,7 +17526,7 @@
 		(dnp no)
 		(uuid "f40d801a-3ec2-479d-b0c8-f022dfd0b963")
 		(property "Reference" "J11"
-			(at 398.145 48.26 0)
+			(at 403.225 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17516,7 +17536,7 @@
 			)
 		)
 		(property "Value" "VOUT"
-			(at 398.145 50.8 0)
+			(at 403.225 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17526,7 +17546,7 @@
 			)
 		)
 		(property "Footprint" "CALTEST_CT3151-2:CALTEST_CT3151-2"
-			(at 398.78 53.34 0)
+			(at 403.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17537,7 +17557,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 398.78 53.34 0)
+			(at 403.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17548,7 +17568,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER BLUE"
-			(at 398.78 53.34 0)
+			(at 403.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17559,7 +17579,7 @@
 			)
 		)
 		(property "Manufacturer" "Cal Test Electronics"
-			(at 398.78 53.34 0)
+			(at 403.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17570,7 +17590,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CT3151SP-6"
-			(at 398.78 53.34 0)
+			(at 403.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17581,7 +17601,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-6/6005549"
-			(at 398.78 53.34 0)
+			(at 403.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17592,7 +17612,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Cal-Test/CT3151SP-6?qs=vgjKjNJexTgnUqOgGylSFw%3D%3D"
-			(at 398.78 53.34 0)
+			(at 403.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17634,7 +17654,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "0"
