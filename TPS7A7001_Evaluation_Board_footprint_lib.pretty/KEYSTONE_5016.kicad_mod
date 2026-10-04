@@ -1,0 +1,152 @@
+(footprint "KEYSTONE_5016"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.575 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "68e38b97-2263-46f1-98c2-11114b78f3f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_5016"
+		(at 5.655 3.6 0)
+		(layer "F.Fab")
+		(uuid "b528bf60-e676-4f8b-8e8a-ae397267db1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce93fa98-6dda-4f56-8f8d-89921b50c223")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa87a5b1-e7c2-4598-bbb0-ba4fb869c9fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -1.965)
+		(end -2.6 1.965)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4fa7a7cf-e95a-40dd-983f-7571ee90faea")
+	)
+	(fp_line
+		(start -2.6 1.965)
+		(end 2.6 1.965)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16287fea-ca0f-4bbb-87e5-1b91a002d13e")
+	)
+	(fp_line
+		(start 2.6 -1.965)
+		(end -2.6 -1.965)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05764d59-a2ea-4a2c-b0fd-286979be6c60")
+	)
+	(fp_line
+		(start 2.6 1.965)
+		(end 2.6 -1.965)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8458094d-5fc5-4aa2-aebe-2c63c7085a2d")
+	)
+	(fp_line
+		(start -1.905 -1.42)
+		(end 1.905 -1.42)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26ae2435-6a3d-4672-9422-34aa4c38cbf8")
+	)
+	(fp_line
+		(start -1.905 1.42)
+		(end -1.905 -1.42)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d49bdb5-21f4-4bdc-b987-442104fa5bd2")
+	)
+	(fp_line
+		(start 1.905 -1.42)
+		(end 1.905 1.42)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80880b64-0b3a-4c18-b1db-8b5aa8731076")
+	)
+	(fp_line
+		(start 1.905 1.42)
+		(end -1.905 1.42)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12531e78-9f04-4e30-86ab-9226a70755f8")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 4.7 3.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b162f4e2-eebc-4265-a122-d495d724dd8d")
+	)
+	(embedded_fonts no)
+	(model "D:/Work/Stanford/Summer_26/EE372B/Demo Board TI LDO/5016/5016.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,138 @@
+(footprint "CAPPRD350W60D800H1150"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.3667 -5.335 0)
+		(layer "F.SilkS")
+		(uuid "786c6e12-ee65-4203-9b04-6a783836df56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPPRD350W60D800H1150"
+		(at 9.7933 5.315 0)
+		(layer "F.Fab")
+		(uuid "d41a4b28-c6b0-4cde-ba95-55274f2fd5f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbbf20b2-ada7-452c-9a27-f0f3195a1b2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb14b71e-7a7c-4690-89d5-6d141ea383ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -4.75 0)
+		(end -4.65 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b7f2e28c-c00a-498e-a718-aa611d267b2c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2240c0bf-efdf-4457-94a8-61d7f9244599")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f9f978c2-372f-4dde-b99d-cb4758711206")
+	)
+	(fp_circle
+		(center -4.75 0)
+		(end -4.65 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "17272216-9605-4ea0-acdf-24dbbabf182c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "be9becad-4b54-498a-8334-2a1e586e9539")
+	)
+	(pad "N" thru_hole circle
+		(at 1.75 0)
+		(size 1.2 1.2)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "168a1228-e1b3-4962-8df5-dbd06368de78")
+	)
+	(pad "P" thru_hole rect
+		(at -1.75 0)
+		(size 1.2 1.2)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "61d41306-12d0-4912-bf3e-603028de3d1b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/TPS7A7001_Evaluation_Board_footprint_lib.pretty/EEUFC1V101.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

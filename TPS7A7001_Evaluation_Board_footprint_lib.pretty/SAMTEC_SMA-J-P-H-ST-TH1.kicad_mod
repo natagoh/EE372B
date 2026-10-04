@@ -1,0 +1,230 @@
+(footprint "SAMTEC_SMA-J-P-H-ST-TH1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.825 -4.885 0)
+		(layer "F.SilkS")
+		(uuid "54e6dcbd-084e-4b92-bc43-d13f8a9e56aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SAMTEC_SMA-J-P-H-ST-TH1"
+		(at 10.605 4.885 0)
+		(layer "F.Fab")
+		(uuid "d96618d3-72d2-4349-87d3-1ec22439705c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5173e9a-7be4-4e0c-9343-b2a601d0e996")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "023ec133-0554-4867-9132-87b21ac49c16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 1.2)
+		(end -3.5 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47f2b594-7321-4f0a-b846-f77a1024266d")
+	)
+	(fp_line
+		(start -1.2 -3.5)
+		(end 1.2 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c11742dc-a928-49f3-b0fe-e9bfc26e4bfe")
+	)
+	(fp_line
+		(start 1.2 3.5)
+		(end -1.2 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05193f82-9e28-4978-9924-45e6eeba549f")
+	)
+	(fp_line
+		(start 3.5 1.2)
+		(end 3.5 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08b30fb7-ead0-4222-87ac-30a8b80b8a79")
+	)
+	(fp_line
+		(start -3.99 -3.99)
+		(end -3.99 3.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6d0aae3-bea6-445d-aff2-3f365c90c1dd")
+	)
+	(fp_line
+		(start -3.99 -3.99)
+		(end 3.99 -3.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a211025-294c-40d2-9119-b4ecf0f55817")
+	)
+	(fp_line
+		(start 3.99 -3.99)
+		(end 3.99 3.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1cfacfd8-bb3c-4f10-9f02-405ff4bef5c2")
+	)
+	(fp_line
+		(start 3.99 3.99)
+		(end -3.99 3.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47556bc6-f418-494b-9e9f-f71a79a29b17")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bdc35aeb-8c47-442e-a8b6-557ec447c513")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd8b7855-fe6d-4fe6-b410-9331e977429d")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d68d33e-fb4c-4de6-9833-583cfad9b7b0")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "307b76d3-db1b-4b66-a9e2-4b9e74f16b93")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "090946d9-2347-45d6-8ca0-c0097655a17b")
+	)
+	(pad "G1" thru_hole circle
+		(at -2.54 -2.54)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "320f040e-e994-45ad-8392-986de734cdcb")
+	)
+	(pad "G2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "70df2655-1c99-4be9-978a-505cda7ce7b4")
+	)
+	(pad "G3" thru_hole circle
+		(at -2.54 2.54)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2aa36d93-0e41-44a1-9211-920b9f0f96cf")
+	)
+	(pad "G4" thru_hole circle
+		(at 2.54 2.54)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9879a320-bfd0-41a5-80a1-f75008b7cdd3")
+	)
+	(embedded_fonts no)
+	(model "D:/Work/Stanford/Summer_26/EE372B/Demo Board TI LDO/SMA_J_P_H_ST_TH1/SMA-J-P-H-ST-TH1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
