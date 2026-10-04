@@ -4,4 +4,5 @@
 	(lib (name "1_EE372_DemoBoard") (type "KiCad") (uri "E:/Stanford/EE372B/TPS7A7001_Evaluation_Board_footprint_lib.pretty") (options "") (descr ""))
 	(lib (name "1_ADS1220IPW") (type "KiCad") (uri "E:/Stanford/EE372B/parts/ADS1220IPW/footprints.pretty") (options "") (descr ""))
 	(lib (name "1_PEC03SAAN") (type "KiCad") (uri "E:/Stanford/EE372B/parts/PEC03SAAN/footprints.pretty") (options "") (descr ""))
+	(lib (name "1_MMSZ4679T1G") (type "KiCad") (uri "E:/Stanford/EE372B/parts/MMSZ4679T1G/footprints.pretty") (options "") (descr ""))
 )
