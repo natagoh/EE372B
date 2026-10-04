@@ -495,7 +495,7 @@
         "uuid": "4eaac8a8-2761-424f-b17c-d4cc8c253812"
       }
     ],
-    "used_designators": "U2-4,#FLG1-4,R10-59,J1-13,J15,#PWR6-19,#PWR21-27,H1-4,Q1-5,C4-11,C13,JP1,JP3,TP1-4,TP9",
+    "used_designators": "U1-4,#FLG1-6,R1-60,J1-21,#PWR1-39,H1-4,Q1-5,C1-17,JP1,JP3,TP1-7,TP9,A1",
     "variants": []
   },
   "sheets": [
