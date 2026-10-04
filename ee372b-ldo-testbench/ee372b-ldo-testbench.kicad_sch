@@ -7476,16 +7476,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 115.57) (xy 336.55 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f02c10-fd41-40dd-aea1-24fd067bd143")
-	)
-	(wire
-		(pts
 			(xy 377.19 135.89) (xy 379.73 135.89)
 		)
 		(stroke
@@ -8956,7 +8946,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 115.57) (xy 326.39 115.57)
+			(xy 323.85 115.57) (xy 336.55 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11484,6 +11474,16 @@
 		)
 		(uuid "9a0eba85-4c33-4e43-abcb-ef92ebcf92e8")
 	)
+	(label "1V8"
+		(at 172.72 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b5d9584-f066-4b8c-9000-ef53aafb7183")
+	)
 	(label "pico_spi_tx"
 		(at 365.76 285.75 180)
 		(effects
@@ -12877,7 +12877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OUT_S1"
+		(property "Value" "LOAD_OUT"
 			(at 523.24 105.9179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14253,86 +14253,6 @@
 			(project "ee372b-ldo-testbench"
 				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 330.2 115.57 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2359e6ae-3ba3-42a7-bacd-c97f9df8add0")
-		(property "Reference" "R57"
-			(at 330.2 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 330.2 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 330.2 113.792 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 330.2 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea80b729-bd21-4b50-9b82-3afbe913c938")
-		)
-		(pin "2"
-			(uuid "c9611c51-ba38-4146-b9f6-7ef697ce6995")
-		)
-		(instances
-			(project "ee372b-ldo-testbench"
-				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -17083,7 +17003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OUT_S2"
+		(property "Value" "LDO_VOUT"
 			(at 492.76 104.6479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21307,126 +21227,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 167.64 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0e8f1fd-059e-4970-b165-cc7e20d00974")
-		(property "Reference" "J8"
-			(at 168.275 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VIN"
-			(at 168.275 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1_EE372_DemoBoard:CALTEST_CT3151-2"
-			(at 167.64 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 167.64 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN BANANA JACK SOLDER RED"
-			(at 167.64 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Cal Test Electronics"
-			(at 167.64 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CT3151SP-2"
-			(at 167.64 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-2/6005547"
-			(at 167.64 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Cal-Test/CT3151SP-2?qs=vgjKjNJexTiE58m2a2m1iA%3D%3D"
-			(at 167.64 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d94a7737-5435-475f-8ef1-5c5a40924dfb")
-		)
-		(instances
-			(project "ee372b-ldo-testbench"
-				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 434.34 316.23 0)
 		(unit 1)
@@ -22174,7 +21974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1V8"
+		(property "Value" "3V3"
 			(at 265.43 198.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
