@@ -862,8 +862,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 -2.54 0)
+			(property "Reference" "U2"
+				(at -24.13 3.8802 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -882,7 +882,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "1_EE372_Quick-Pak:QFN-32_EP_7x7_Pitch0.65mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1503,7 +1503,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin input line
 					(at -15.24 20.32 270)
 					(length 2.54)
 					(name "EP"
@@ -6282,7 +6282,7 @@
 	)
 	(text "Banana jacks for VDD/GND\n"
 		(exclude_from_sim no)
-		(at 196.596 179.07 0)
+		(at 204.47 168.148 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6411,7 +6411,7 @@
 		(uuid "0d6dfd38-3809-4881-9b47-99c9c010328c")
 	)
 	(junction
-		(at 209.55 199.39)
+		(at 212.09 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10865379-93b3-4164-aa4f-c0fdaea8467b")
@@ -6501,7 +6501,7 @@
 		(uuid "303ef4a1-a290-4ec9-ae3e-7846e20a8361")
 	)
 	(junction
-		(at 257.81 201.93)
+		(at 260.35 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34cabf3c-248c-4a96-9203-e0d8c70c392d")
@@ -6549,12 +6549,6 @@
 		(uuid "3e943ba5-f204-4946-8028-b96a06fd8b78")
 	)
 	(junction
-		(at 215.9 199.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40edb20a-421c-4d9d-98a0-37fe1be2f51b")
-	)
-	(junction
 		(at 407.67 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6571,6 +6565,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48077397-e4d6-41c4-ad57-76210f1d6b1b")
+	)
+	(junction
+		(at 222.25 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "482fad94-6b6b-4d36-b6b7-9473755e27d5")
 	)
 	(junction
 		(at 421.64 303.53)
@@ -6597,7 +6597,7 @@
 		(uuid "4f70bf1f-b0bd-4ea4-a97a-6d1116b2887a")
 	)
 	(junction
-		(at 204.47 199.39)
+		(at 207.01 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "500c1413-1578-40d9-8798-26f24b5d0280")
@@ -6615,6 +6615,12 @@
 		(uuid "516ada3e-bd97-4a4d-9eba-874ce1049bbd")
 	)
 	(junction
+		(at 208.28 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "532ed736-44de-4abd-b05a-e96c1c6feb8d")
+	)
+	(junction
 		(at 204.47 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6627,7 +6633,7 @@
 		(uuid "5665912c-ffe0-40b7-8326-387c5c9cb28b")
 	)
 	(junction
-		(at 262.89 201.93)
+		(at 265.43 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57788df6-e8fb-4e02-b6b1-cfd9369a9b33")
@@ -6663,16 +6669,22 @@
 		(uuid "633f4323-0b7e-4650-a175-76e97d63ff56")
 	)
 	(junction
-		(at 386.08 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64105b9c-4ccf-4cfa-9660-5be3240be92a")
-	)
-	(junction
 		(at 520.7 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65842520-8821-40ed-9056-66dfad86aea8")
+	)
+	(junction
+		(at 212.09 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a4b0e73-8db9-4562-b3ae-2a341ca4fa7a")
+	)
+	(junction
+		(at 215.9 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc2ff47-1fd3-438c-be73-6930dda1f73b")
 	)
 	(junction
 		(at 88.9 290.83)
@@ -6717,7 +6729,7 @@
 		(uuid "79c8cbf6-a34f-42f7-8c4d-93c21596b99c")
 	)
 	(junction
-		(at 209.55 220.98)
+		(at 260.35 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79d26540-1623-4fc5-838d-bdd009ba1c75")
@@ -6819,6 +6831,12 @@
 		(uuid "ad31b5df-53de-41e3-8e4e-2e46ef378091")
 	)
 	(junction
+		(at 207.01 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad6cbabc-9895-4857-8e74-c90c17dc6b7f")
+	)
+	(junction
 		(at 111.76 312.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6903,7 +6921,7 @@
 		(uuid "cb9df74d-eab7-4733-be2a-6f2be89a537f")
 	)
 	(junction
-		(at 204.47 220.98)
+		(at 255.27 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf180a78-a291-49a3-814e-b39ab1dc8f1c")
@@ -6931,6 +6949,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6be915c-28fa-4500-bb0b-2c9d7a758ac0")
+	)
+	(junction
+		(at 218.44 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e15e8beb-05e4-4bed-9108-fb7558e2e437")
 	)
 	(junction
 		(at 354.33 80.01)
@@ -7290,7 +7314,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 201.93) (xy 276.86 201.93)
+			(xy 265.43 208.28) (xy 279.4 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7560,6 +7584,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 182.88) (xy 208.28 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284fab8c-0f88-494f-954c-ba2d5b8d331f")
+	)
+	(wire
+		(pts
 			(xy 356.87 67.31) (xy 356.87 68.58)
 		)
 		(stroke
@@ -7640,6 +7674,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 182.88) (xy 207.01 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2fba47-7f47-4cfd-b5b8-746e5b9c28c1")
+	)
+	(wire
+		(pts
 			(xy 490.22 115.57) (xy 490.22 116.84)
 		)
 		(stroke
@@ -7687,16 +7731,6 @@
 			(type default)
 		)
 		(uuid "31a55094-f4a8-492c-bbf6-c61ead6183f3")
-	)
-	(wire
-		(pts
-			(xy 387.35 135.89) (xy 386.08 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31ebd5f8-3cb9-4cc7-9a3f-b745d559d360")
 	)
 	(wire
 		(pts
@@ -7760,7 +7794,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 210.82) (xy 257.81 214.63)
+			(xy 260.35 217.17) (xy 260.35 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7787,16 +7821,6 @@
 			(type default)
 		)
 		(uuid "374192ed-aeb8-4a88-8993-ccb6c9f51224")
-	)
-	(wire
-		(pts
-			(xy 223.52 198.12) (xy 223.52 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "377cada8-e332-48f0-ba5b-24ba41369d67")
 	)
 	(wire
 		(pts
@@ -8170,6 +8194,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 182.88) (xy 218.44 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d243551-ac39-4309-b9ea-523ccc7e4a8b")
+	)
+	(wire
+		(pts
 			(xy 120.65 342.9) (xy 127 342.9)
 		)
 		(stroke
@@ -8200,7 +8234,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 220.98) (xy 204.47 224.79)
+			(xy 255.27 177.8) (xy 255.27 181.61)
 		)
 		(stroke
 			(width 0)
@@ -8230,7 +8264,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 201.93) (xy 257.81 201.93)
+			(xy 254 208.28) (xy 260.35 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8570,7 +8604,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 200.66) (xy 276.86 201.93)
+			(xy 279.4 207.01) (xy 279.4 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8677,6 +8711,16 @@
 			(type default)
 		)
 		(uuid "69e61d80-033f-465f-b9c7-9e8b7fb57694")
+	)
+	(wire
+		(pts
+			(xy 207.01 182.88) (xy 207.01 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0f63d7-4e67-485d-a2f2-3d3f5f9e2898")
 	)
 	(wire
 		(pts
@@ -8910,7 +8954,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 198.12) (xy 209.55 199.39)
+			(xy 212.09 204.47) (xy 212.09 205.74)
 		)
 		(stroke
 			(width 0)
@@ -8957,16 +9001,6 @@
 			(type default)
 		)
 		(uuid "769028f7-e6d9-4362-a15b-5db8a7820557")
-	)
-	(wire
-		(pts
-			(xy 209.55 199.39) (xy 215.9 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76a44c44-4888-452f-bcae-b50a1b306ef8")
 	)
 	(wire
 		(pts
@@ -9107,6 +9141,16 @@
 			(type default)
 		)
 		(uuid "7d90bc43-160b-44ef-ab2b-3fa4b67a0ccb")
+	)
+	(wire
+		(pts
+			(xy 207.01 182.88) (xy 200.66 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f18b276-602d-471a-8814-9a9088d02c7d")
 	)
 	(wire
 		(pts
@@ -9260,7 +9304,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 199.39) (xy 223.52 199.39)
+			(xy 212.09 205.74) (xy 226.06 205.74)
 		)
 		(stroke
 			(width 0)
@@ -9280,7 +9324,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 200.66) (xy 262.89 201.93)
+			(xy 265.43 207.01) (xy 265.43 208.28)
 		)
 		(stroke
 			(width 0)
@@ -9410,6 +9454,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 182.88) (xy 215.9 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94eb5c58-3fe6-40df-817c-60af86f30a04")
+	)
+	(wire
+		(pts
 			(xy 104.14 266.7) (xy 104.14 273.05)
 		)
 		(stroke
@@ -9510,7 +9564,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 229.87) (xy 204.47 233.68)
+			(xy 255.27 186.69) (xy 255.27 190.5)
 		)
 		(stroke
 			(width 0)
@@ -9750,7 +9804,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 220.98) (xy 223.52 220.98)
+			(xy 260.35 177.8) (xy 274.32 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9800,7 +9854,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 201.93) (xy 257.81 205.74)
+			(xy 260.35 208.28) (xy 260.35 212.09)
 		)
 		(stroke
 			(width 0)
@@ -9950,7 +10004,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 220.98) (xy 204.47 220.98)
+			(xy 248.92 177.8) (xy 255.27 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9970,6 +10024,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 182.88) (xy 226.06 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d7e565-a768-4314-80a7-2b7d562cd060")
+	)
+	(wire
+		(pts
 			(xy 237.49 245.11) (xy 246.38 245.11)
 		)
 		(stroke
@@ -9977,6 +10041,16 @@
 			(type default)
 		)
 		(uuid "b778fae4-5211-42b9-a031-e5d071a61da0")
+	)
+	(wire
+		(pts
+			(xy 212.09 181.61) (xy 212.09 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77983d8-cdc6-442c-879c-fbbf0897ab01")
 	)
 	(wire
 		(pts
@@ -10110,7 +10184,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 199.39) (xy 198.12 199.39)
+			(xy 207.01 205.74) (xy 200.66 205.74)
 		)
 		(stroke
 			(width 0)
@@ -10340,13 +10414,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 219.71) (xy 209.55 220.98)
+			(xy 260.35 176.53) (xy 260.35 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cde5664b-8040-4b7a-a54c-39aaf9593d61")
+	)
+	(wire
+		(pts
+			(xy 321.31 91.44) (xy 328.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce01ca20-5256-4887-869a-fc7248a7150c")
 	)
 	(wire
 		(pts
@@ -10410,7 +10494,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 219.71) (xy 223.52 220.98)
+			(xy 274.32 176.53) (xy 274.32 177.8)
 		)
 		(stroke
 			(width 0)
@@ -10490,7 +10574,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 199.39) (xy 204.47 204.47)
+			(xy 207.01 205.74) (xy 207.01 210.82)
 		)
 		(stroke
 			(width 0)
@@ -10547,6 +10631,16 @@
 			(type default)
 		)
 		(uuid "e41107ab-e7ef-4d8a-9795-6fc940f31631")
+	)
+	(wire
+		(pts
+			(xy 218.44 182.88) (xy 222.25 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4411257-a2c9-4238-aa2c-286a2d309880")
 	)
 	(wire
 		(pts
@@ -10620,13 +10714,23 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 220.98) (xy 209.55 220.98)
+			(xy 255.27 177.8) (xy 260.35 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea6a63e2-2dca-460b-af3f-8b39a00fbf0f")
+	)
+	(wire
+		(pts
+			(xy 328.93 83.82) (xy 347.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaafc577-8976-48d5-b999-e02ba300f6a5")
 	)
 	(wire
 		(pts
@@ -10750,7 +10854,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 199.39) (xy 204.47 199.39)
+			(xy 212.09 205.74) (xy 207.01 205.74)
 		)
 		(stroke
 			(width 0)
@@ -10790,7 +10894,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 201.93) (xy 262.89 201.93)
+			(xy 260.35 208.28) (xy 265.43 208.28)
 		)
 		(stroke
 			(width 0)
@@ -11347,6 +11451,16 @@
 			(justify right bottom)
 		)
 		(uuid "3dff345e-549e-4ac0-b6bb-fbd5ea5f01d5")
+	)
+	(label "VSS"
+		(at 321.31 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3efff461-b425-4e9e-910f-0d0616e75cf3")
 	)
 	(label "pico_irq"
 		(at 538.48 294.64 270)
@@ -11997,6 +12111,84 @@
 			(justify left bottom)
 		)
 		(uuid "fce9c538-70c9-492d-afc4-7c939172a699")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01ff3e95-be83-4711-9450-99ea97ea5a89")
+		(property "Reference" "#PWR041"
+			(at 207.01 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0af8796f-3d26-4877-9e4f-cc9a92e7601d")
+		)
+		(instances
+			(project "ee372b-ldo-testbench"
+				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -13644,7 +13836,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 204.47 0)
+		(at 207.01 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13655,7 +13847,7 @@
 		(fields_autoplaced yes)
 		(uuid "19794730-3478-4d17-aed9-6ed7595e3333")
 		(property "Reference" "#PWR038"
-			(at 204.47 210.82 0)
+			(at 207.01 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13666,7 +13858,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 209.55 0)
+			(at 207.01 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13676,7 +13868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 204.47 0)
+			(at 207.01 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13687,7 +13879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 204.47 0)
+			(at 207.01 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13698,7 +13890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 204.47 0)
+			(at 207.01 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14265,6 +14457,130 @@
 		)
 	)
 	(symbol
+		(lib_name "TestPoint_1")
+		(lib_id "Connector:TestPoint")
+		(at 212.09 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e8a08c1-cd82-4237-ae70-e4509141cbc8")
+		(property "Reference" "TP11"
+			(at 214.63 177.0379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 179.5779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_EE372_DemoBoard:KEYSTONE_5016"
+			(at 217.17 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p61.pdf"
+			(at 217.17 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 212.09 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 212.09 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "5016"
+			(at 212.09 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA"
+			(at 212.09 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Keystone-Electronics/5016?qs=qOqV1E1P08QbNAXL8l0G1A%3D%3D"
+			(at 212.09 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad15d5a9-0034-4ef4-aafe-da850ebe9a1e")
+		)
+		(instances
+			(project "ee372b-ldo-testbench"
+				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 533.4 116.84 180)
 		(unit 1)
@@ -14631,6 +14947,126 @@
 			(project "ee372b-ldo-testbench"
 				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 195.58 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "244d7065-a7e2-4ca2-aeed-c9dcb50bdb10")
+		(property "Reference" "J6"
+			(at 196.215 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.215 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1_EE372_DemoBoard:CALTEST_CT3151-2"
+			(at 195.58 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
+			(at 195.58 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN BANANA JACK SOLDER BLACK"
+			(at 195.58 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cal Test Electronics"
+			(at 195.58 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CT3151SP-0"
+			(at 195.58 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-0/5267756"
+			(at 195.58 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Cal-Test/CT3151SP-0?qs=vgjKjNJexThgHlIQlFWCUA%3D%3D"
+			(at 195.58 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccb3a04b-1b18-43f8-9251-3b8f33a7880c")
+		)
+		(instances
+			(project "ee372b-ldo-testbench"
+				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -15166,7 +15602,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 204.47 227.33 0)
+		(at 255.27 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15177,7 +15613,7 @@
 		(fields_autoplaced yes)
 		(uuid "32cfee65-96d4-40be-a7a6-c95b576f4701")
 		(property "Reference" "C26"
-			(at 207.01 226.1869 0)
+			(at 257.81 183.0069 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15188,7 +15624,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 207.01 228.7269 0)
+			(at 257.81 185.5469 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15199,7 +15635,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 204.47 227.33 0)
+			(at 255.27 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15210,7 +15646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 227.33 0)
+			(at 255.27 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15221,7 +15657,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 204.47 227.33 0)
+			(at 255.27 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16386,7 +16822,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 193.04 220.98 0)
+		(at 243.84 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16396,7 +16832,7 @@
 		(dnp no)
 		(uuid "4c03a93f-4afc-4c51-b08b-7e80d5b86f59")
 		(property "Reference" "J4"
-			(at 193.675 215.9 0)
+			(at 244.475 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16406,7 +16842,7 @@
 			)
 		)
 		(property "Value" "1V8"
-			(at 193.675 218.44 0)
+			(at 244.475 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16416,7 +16852,7 @@
 			)
 		)
 		(property "Footprint" "1_EE372_DemoBoard:CALTEST_CT3151-2"
-			(at 193.04 220.98 0)
+			(at 243.84 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16427,7 +16863,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 193.04 220.98 0)
+			(at 243.84 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16438,7 +16874,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER BLACK"
-			(at 193.04 220.98 0)
+			(at 243.84 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16449,7 +16885,7 @@
 			)
 		)
 		(property "Manufacturer" "Cal Test Electronics"
-			(at 193.04 220.98 0)
+			(at 243.84 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16460,7 +16896,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CT3151SP-0"
-			(at 193.04 220.98 0)
+			(at 243.84 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16471,7 +16907,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-0/5267756"
-			(at 193.04 220.98 0)
+			(at 243.84 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16482,7 +16918,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Cal-Test/CT3151SP-0?qs=vgjKjNJexThgHlIQlFWCUA%3D%3D"
-			(at 193.04 220.98 0)
+			(at 243.84 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17150,7 +17586,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 233.68 0)
+		(at 255.27 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17161,7 +17597,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bade56e-2ee8-40e5-b5df-b44c436f6a2b")
 		(property "Reference" "#PWR039"
-			(at 204.47 240.03 0)
+			(at 255.27 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17172,7 +17608,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 238.76 0)
+			(at 255.27 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17182,7 +17618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 233.68 0)
+			(at 255.27 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17193,7 +17629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 233.68 0)
+			(at 255.27 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17204,7 +17640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 233.68 0)
+			(at 255.27 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17647,7 +18083,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 257.81 208.28 0)
+		(at 260.35 214.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17658,7 +18094,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a6c4dc1-3374-4e55-83c6-166617c9286e")
 		(property "Reference" "C28"
-			(at 260.35 207.1369 0)
+			(at 262.89 213.4869 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17669,7 +18105,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 260.35 209.6769 0)
+			(at 262.89 216.0269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17680,7 +18116,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 257.81 208.28 0)
+			(at 260.35 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17691,7 +18127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 208.28 0)
+			(at 260.35 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17702,7 +18138,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 257.81 208.28 0)
+			(at 260.35 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18009,7 +18445,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 193.04 199.39 0)
+		(at 195.58 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18019,7 +18455,7 @@
 		(dnp no)
 		(uuid "6d9b0e02-ff1a-4290-adf3-81d581ac5cc6")
 		(property "Reference" "J3"
-			(at 193.675 194.31 0)
+			(at 196.215 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18029,7 +18465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.675 196.85 0)
+			(at 196.215 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18039,7 +18475,7 @@
 			)
 		)
 		(property "Footprint" "1_EE372_DemoBoard:CALTEST_CT3151-2"
-			(at 193.04 199.39 0)
+			(at 195.58 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18050,7 +18486,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 193.04 199.39 0)
+			(at 195.58 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18061,7 +18497,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER BLACK"
-			(at 193.04 199.39 0)
+			(at 195.58 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18072,7 +18508,7 @@
 			)
 		)
 		(property "Manufacturer" "Cal Test Electronics"
-			(at 193.04 199.39 0)
+			(at 195.58 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18083,7 +18519,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CT3151SP-0"
-			(at 193.04 199.39 0)
+			(at 195.58 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18094,7 +18530,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-0/5267756"
-			(at 193.04 199.39 0)
+			(at 195.58 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18105,7 +18541,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Cal-Test/CT3151SP-0?qs=vgjKjNJexThgHlIQlFWCUA%3D%3D"
-			(at 193.04 199.39 0)
+			(at 195.58 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18625,7 +19061,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 246.38 201.93 0)
+		(at 248.92 208.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18635,7 +19071,7 @@
 		(dnp no)
 		(uuid "710b98e5-6ea7-4e67-842e-02ad1b381ac2")
 		(property "Reference" "J5"
-			(at 247.015 196.85 0)
+			(at 249.555 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18645,7 +19081,7 @@
 			)
 		)
 		(property "Value" "3v3_EXTERNAL"
-			(at 247.015 199.39 0)
+			(at 249.555 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18655,7 +19091,7 @@
 			)
 		)
 		(property "Footprint" "1_EE372_DemoBoard:CALTEST_CT3151-2"
-			(at 246.38 201.93 0)
+			(at 248.92 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18666,7 +19102,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 246.38 201.93 0)
+			(at 248.92 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18677,7 +19113,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER BLACK"
-			(at 246.38 201.93 0)
+			(at 248.92 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18688,7 +19124,7 @@
 			)
 		)
 		(property "Manufacturer" "Cal Test Electronics"
-			(at 246.38 201.93 0)
+			(at 248.92 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18699,7 +19135,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CT3151SP-0"
-			(at 246.38 201.93 0)
+			(at 248.92 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18710,7 +19146,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-0/5267756"
-			(at 246.38 201.93 0)
+			(at 248.92 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18721,7 +19157,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Cal-Test/CT3151SP-0?qs=vgjKjNJexThgHlIQlFWCUA%3D%3D"
-			(at 246.38 201.93 0)
+			(at 248.92 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19555,6 +19991,130 @@
 		)
 	)
 	(symbol
+		(lib_name "TestPoint_1")
+		(lib_id "Connector:TestPoint")
+		(at 215.9 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84c36716-3532-40b8-add8-57870072df1e")
+		(property "Reference" "TP12"
+			(at 218.44 178.3079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 180.8479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_EE372_DemoBoard:KEYSTONE_5016"
+			(at 220.98 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p61.pdf"
+			(at 220.98 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 215.9 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "5016"
+			(at 215.9 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA"
+			(at 215.9 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Keystone-Electronics/5016?qs=qOqV1E1P08QbNAXL8l0G1A%3D%3D"
+			(at 215.9 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a89efb6d-b5a4-4cda-8c1c-405e10558044")
+		)
+		(instances
+			(project "ee372b-ldo-testbench"
+				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 528.32 273.05 0)
 		(unit 1)
@@ -19999,6 +20559,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 328.93 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89bc0c5e-1bdd-4676-ab8a-aa1bc47e1662")
+		(property "Reference" "R47"
+			(at 331.47 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 331.47 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 330.708 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 328.93 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1282b786-c8e7-4969-aeb1-64bdbe90df62")
+		)
+		(pin "2"
+			(uuid "8df99099-97ba-416f-8814-410ead3c4f9a")
+		)
+		(instances
+			(project "ee372b-ldo-testbench"
+				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 137.16 223.52 90)
 		(unit 1)
 		(body_style 1)
@@ -20194,6 +20836,130 @@
 			(project "ee372b-ldo-testbench"
 				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TestPoint_1")
+		(lib_id "Connector:TestPoint")
+		(at 208.28 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e38500b-273d-4035-8265-8ddfc90e249e")
+		(property "Reference" "TP14"
+			(at 210.82 178.3079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 180.8479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_EE372_DemoBoard:KEYSTONE_5016"
+			(at 213.36 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p61.pdf"
+			(at 213.36 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "5016"
+			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA"
+			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Keystone-Electronics/5016?qs=qOqV1E1P08QbNAXL8l0G1A%3D%3D"
+			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d60dcd61-259c-4aea-8837-2aac978a6db1")
+		)
+		(instances
+			(project "ee372b-ldo-testbench"
+				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -20446,7 +21212,7 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
-		(at 209.55 198.12 0)
+		(at 212.09 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20457,7 +21223,7 @@
 		(fields_autoplaced yes)
 		(uuid "955befab-c668-4f29-8976-c119f2ad15f2")
 		(property "Reference" "TP6"
-			(at 212.09 193.5479 0)
+			(at 214.63 199.8979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20468,7 +21234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 196.0879 0)
+			(at 214.63 202.4379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20479,7 +21245,7 @@
 			)
 		)
 		(property "Footprint" "1_EE372_DemoBoard:KEYSTONE_5016"
-			(at 214.63 198.12 0)
+			(at 217.17 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20490,7 +21256,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p61.pdf"
-			(at 214.63 198.12 0)
+			(at 217.17 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20501,7 +21267,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 209.55 198.12 0)
+			(at 212.09 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20512,7 +21278,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 209.55 198.12 0)
+			(at 212.09 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20523,7 +21289,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5016"
-			(at 209.55 198.12 0)
+			(at 212.09 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20534,7 +21300,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA"
-			(at 209.55 198.12 0)
+			(at 212.09 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20545,7 +21311,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Keystone-Electronics/5016?qs=qOqV1E1P08QbNAXL8l0G1A%3D%3D"
-			(at 209.55 198.12 0)
+			(at 212.09 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21523,7 +22289,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 214.63 0)
+		(at 260.35 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21534,7 +22300,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f30ea44-cf51-419a-8880-1d3d06f7583a")
 		(property "Reference" "#PWR040"
-			(at 257.81 220.98 0)
+			(at 260.35 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21545,7 +22311,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 219.71 0)
+			(at 260.35 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21555,7 +22321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 214.63 0)
+			(at 260.35 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21566,7 +22332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 214.63 0)
+			(at 260.35 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21577,7 +22343,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 214.63 0)
+			(at 260.35 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22129,7 +22895,7 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
-		(at 209.55 219.71 0)
+		(at 260.35 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22140,7 +22906,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab89450d-9559-442c-8217-001d6a9b52e9")
 		(property "Reference" "TP7"
-			(at 212.09 215.1379 0)
+			(at 262.89 171.9579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22151,7 +22917,7 @@
 			)
 		)
 		(property "Value" "1V8"
-			(at 212.09 217.6779 0)
+			(at 262.89 174.4979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22162,7 +22928,7 @@
 			)
 		)
 		(property "Footprint" "1_EE372_DemoBoard:KEYSTONE_5016"
-			(at 214.63 219.71 0)
+			(at 265.43 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22173,7 +22939,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p61.pdf"
-			(at 214.63 219.71 0)
+			(at 265.43 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22184,7 +22950,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 209.55 219.71 0)
+			(at 260.35 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22195,7 +22961,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 209.55 219.71 0)
+			(at 260.35 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22206,7 +22972,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5016"
-			(at 209.55 219.71 0)
+			(at 260.35 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22217,7 +22983,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA"
-			(at 209.55 219.71 0)
+			(at 260.35 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22228,7 +22994,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Keystone-Electronics/5016?qs=qOqV1E1P08QbNAXL8l0G1A%3D%3D"
-			(at 209.55 219.71 0)
+			(at 260.35 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22331,7 +23097,7 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
-		(at 262.89 200.66 0)
+		(at 265.43 207.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22342,7 +23108,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae31729f-d5ea-4093-89dc-64a5924fd297")
 		(property "Reference" "TP10"
-			(at 265.43 196.0879 0)
+			(at 267.97 202.4379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22353,7 +23119,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 265.43 198.6279 0)
+			(at 267.97 204.9779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22364,7 +23130,7 @@
 			)
 		)
 		(property "Footprint" "1_EE372_DemoBoard:KEYSTONE_5016"
-			(at 267.97 200.66 0)
+			(at 270.51 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22375,7 +23141,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p61.pdf"
-			(at 267.97 200.66 0)
+			(at 270.51 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22386,7 +23152,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 262.89 200.66 0)
+			(at 265.43 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22397,7 +23163,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 262.89 200.66 0)
+			(at 265.43 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22408,7 +23174,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5016"
-			(at 262.89 200.66 0)
+			(at 265.43 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22419,7 +23185,7 @@
 			)
 		)
 		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA"
-			(at 262.89 200.66 0)
+			(at 265.43 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22430,7 +23196,7 @@
 			)
 		)
 		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Keystone-Electronics/5016?qs=qOqV1E1P08QbNAXL8l0G1A%3D%3D"
-			(at 262.89 200.66 0)
+			(at 265.43 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25469,86 +26235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 215.9 199.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de46c23b-96b8-49a5-85dc-c4ddb5c6c8b8")
-		(property "Reference" "#FLG039"
-			(at 215.9 201.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 215.9001 203.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 215.9 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3b4d46f-3367-4713-ac25-75b4fd8fbc52")
-		)
-		(instances
-			(project "ee372b-ldo-testbench"
-				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
-					(reference "#FLG039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "1_EE372_DemoBoard:PEC02SAAN")
 		(at 35.56 52.07 0)
 		(unit 1)
@@ -26479,6 +27165,86 @@
 			(project "ee372b-ldo-testbench"
 				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 218.44 182.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee865c7-4775-472b-8f76-043babee59fb")
+		(property "Reference" "#FLG041"
+			(at 218.44 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 218.4401 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 218.44 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05bcef9e-126e-4e38-8206-e5ff9a729a16")
+		)
+		(instances
+			(project "ee372b-ldo-testbench"
+				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
+					(reference "#FLG041")
 					(unit 1)
 				)
 			)
@@ -28061,6 +28827,130 @@
 			(project "ee372b-ldo-testbench"
 				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
 					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TestPoint_1")
+		(lib_id "Connector:TestPoint")
+		(at 222.25 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe3a9660-01e9-4b2d-aa38-4eae12092fcf")
+		(property "Reference" "TP13"
+			(at 224.79 178.3079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 180.8479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_EE372_DemoBoard:KEYSTONE_5016"
+			(at 227.33 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p61.pdf"
+			(at 227.33 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 222.25 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 222.25 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "5016"
+			(at 222.25 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 1" "https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA"
+			(at 222.25 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link 2" "https://www.mouser.com/en/ProductDetail/Keystone-Electronics/5016?qs=qOqV1E1P08QbNAXL8l0G1A%3D%3D"
+			(at 222.25 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a75d420-b2bc-4f40-9976-3e7e859c5ef7")
+		)
+		(instances
+			(project "ee372b-ldo-testbench"
+				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
