@@ -273,12 +273,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|2324100|3416300|fb9fa137-460c-4141-a69c-39d29e464584|05bcef9e-126e-4e38-8206-e5ff9a729a16|/4eaac8a8-2761-424f-b17c-d4cc8c253812|/4eaac8a8-2761-424f-b17c-d4cc8c253812|/4eaac8a8-2761-424f-b17c-d4cc8c253812",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
