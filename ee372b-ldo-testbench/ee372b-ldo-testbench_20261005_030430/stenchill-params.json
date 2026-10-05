@@ -1,0 +1,13 @@
+{
+  "v": 1,
+  "thickness": 0.2,
+  "shrink": 0.0,
+  "nozzleDiameter": 0.4,
+  "enableSlotify": true,
+  "dropUnprintableGrids": true,
+  "enableShoulders": false,
+  "pcbThickness": 1.6,
+  "shoulderLength": 100.0,
+  "shoulderWidth": 1.15,
+  "shoulderClearance": 0.3
+}
