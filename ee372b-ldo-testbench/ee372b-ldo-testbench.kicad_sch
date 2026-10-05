@@ -11452,7 +11452,7 @@
 		)
 		(uuid "3dff345e-549e-4ac0-b6bb-fbd5ea5f01d5")
 	)
-	(label "VSS"
+	(label "GND"
 		(at 321.31 91.44 0)
 		(effects
 			(font
@@ -11472,7 +11472,7 @@
 		)
 		(uuid "42e7c397-f0ce-41bb-97b6-4a47d2ae2f2e")
 	)
-	(label "LDO_GND"
+	(label "AIN3_LDO_GND"
 		(at 427.99 290.83 180)
 		(effects
 			(font
