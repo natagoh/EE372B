@@ -1,0 +1,45 @@
+,Sourced,Placed,References,Value,Footprint,Quantity,DigiKey
+1,,,"C1, C2, C3, C4, C5, C7, C10, C14, C15, C16, C17, C21, C23, C24, C29, C30",0.1uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,16,https://www.digikey.com/en/products/detail/kemet/C0805F104K1RACAUTO/26735352
+2,,,"C6, C8, C12, C18, C25",1uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,5,https://www.digikey.com/en/products/detail/tdk/C2012X7S2A105K125AE/3283664?gclsrc=aw.ds&gad_source=1&gad_campaignid=24216361874&gbraid=0AAAAADrbLliyY1KipYopVm7CDRyPVMdkB&gclid=CjwKCAjwlY3WBhANEiwApsNrLcEAS_EFt4V35HVZYvQ-ZXI2dTvTfjyueX_XM4Uq2zf4XArEx-IZiBoChC8QAvD_BwE
+3,,,"C13, C22, C26, C28",10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,4,https://www.digikey.com/en/products/detail/kemet/C0805C106K8RACTU/3317617
+4,,,C11,100uF,CAPPRD350W60D800H1150,1,https://www.digikey.com/en/products/detail/panasonic-industry/EEU-FC1V101/266303
+5,,,C19,10nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1,https://www.digikey.com/en/products/detail/venkel/AGC0805X7R101-103KNP-CT/21343761
+6,,,C20,1nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1,https://www.digikey.com/en/products/detail/kemet/C0805C102K5RACTU/411146
+7,,,"R9, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R55, R57, R58, R60, R61, R62, R63, R64, R65",0,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,27,https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216?s=N4IgTCBcDaIAQCUDCAGAHCgrAKQQWhQHYUEAZEAXQF8g
+8,,,"R10, R12, R14, R15, R17, R54",10k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,6,https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535?s=N4IgTCBcDaIEoGEAMAOJBWAYnAtEg7AIxIDSAMiALoC%2BQA
+9,,,"R1, R2, R3, R4, R5",47,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,5,https://www.digikey.com/en/products/detail/yageo/RC0805FR-0747RL/727972
+10,,,"R6, R7, R8",1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,3,https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637
+11,,,"R13, R16, R18",125,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,3,https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805124RFKEA/1175533
+12,,,"R56, R59",100m,R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,2,https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-6DSFR10V/6004391
+13,,,R11,250,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805249RFKEA/1175566
+14,,,R19,31.6,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,https://www.digikey.com/en/products/detail/yageo/RC0805FR-0731R6L/727854
+15,,,R20,15.4,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,https://www.digikey.com/en/products/detail/vishay-dale/CRCW080515R4FKEA/1175428
+16,,,U1,MMSZ4679T1G,SOD-123_ONS,1,https://www.digikey.com/en/products/detail/onsemi/MMSZ4679T1G/919715
+17,,,U2,~,QFN-32_EP_7x7_Pitch0.65mm,1,
+18,,,U3,ADS1220IPW,PW16,1,https://www.digikey.com/en/products/detail/texas-instruments/ADS1220IPW/4311719
+19,,,U4,BUF634AIDR,SOIC127P599X175-8N,1,https://www.digikey.com/en/products/detail/texas-instruments/BUF634AIDR/10314202
+20,,,A1,RaspberryPi_Pico,RaspberryPi_Pico_Common_Unspecified,1,
+21,,,"Q1, Q2, Q3, Q4, Q5",FDV305N,SOT95P240X111-3N,5,https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/FDV305N/26112870
+22,,,"TP6, TP11, TP12, TP13, TP14",GND,KEYSTONE_5016,5,https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA
+23,,,JP3,BW_ADJ,CONN_PxC02S_SUL,1,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC02SAAN/859155?s=N4IgTCBcDaIAoFEDCAGMBlAgpgciAugL5A
+24,,,TP1,IN_S1,KEYSTONE_5016,1,https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA
+25,,,TP2,IN_S2,KEYSTONE_5016,1,https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA
+26,,,TP3,LOAD_OUT,KEYSTONE_5016,1,https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA
+27,,,TP4,LDO_VOUT,KEYSTONE_5016,1,https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA
+28,,,TP5,OTA_OUT,KEYSTONE_5016,1,https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA
+29,,,TP7,1V8,KEYSTONE_5016,1,https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA
+30,,,TP8,VARIABLE_LOAD_VOUT,KEYSTONE_5016,1,https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA
+31,,,TP9,VARIABLE_LOAD_GND,KEYSTONE_5016,1,https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA
+32,,,TP10,3V3,KEYSTONE_5016,1,https://www.digikey.com/en/products/detail/keystone-electronics/5016/278887?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGARgDYQBdAXyA
+33,,,"J1, J2, J21, J22, J23, J24",PEC02SAAN,CONN_PxC02S_SUL,6,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC02SAAN/859155?s=N4IgTCBcDaIAoFEDCAGMBlAgpgciAugL5A
+34,,,"J14, J16, J17, J18, J19, J25",PEC03SAAN,CONN_PEC03SAAN_SUL,6,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC03SAAN/859156?s=N4IgTCBcDaIAoFEDCAGAzAZQIJYHIgF0BfIA
+35,,,"J3, J6",GND,CALTEST_CT3151-2,2,https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-0/5267756
+36,,,J4,1V8,CALTEST_CT3151-2,1,https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-0/5267756
+37,,,J5,3v3_EXTERNAL,CALTEST_CT3151-2,1,https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-0/5267756
+38,,,J9,IN_S,SAMTEC_SMA-J-P-H-ST-TH1,1,https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-TH1/2345104?s=N4IgTCBcDaIMoFkCCBaAUigCigEiuAKigTgIwgC6AvkA
+39,,,J10,OUT_S,SAMTEC_SMA-J-P-H-ST-TH1,1,https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-TH1/2345104?s=N4IgTCBcDaIMoFkCCBaAUigCigEiuAKigTgIwgC6AvkA
+40,,,J11,VOUT,CALTEST_CT3151-2,1,https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-0/5267756
+41,,,J12,VDD_BUF,CALTEST_CT3151-2,1,https://www.digikey.com/en/products/detail/cal-test-electronics/CT3151SP-0/5267756
+42,,,J13,V_SIG,SAMTEC_SMA-J-P-H-ST-TH1,1,https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-TH1/2345104?s=N4IgTCBcDaIMoFkCCBaAUigCigEiuAKigTgIwgC6AvkA
+43,,,J15,VSIG_BUF,SAMTEC_SMA-J-P-H-ST-TH1,1,https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-TH1/2345104?s=N4IgTCBcDaIMoFkCCBaAUigCigEiuAKigTgIwgC6AvkA
+44,,,J20,VREF_EXTERNAL,SAMTEC_SMA-J-P-H-ST-TH1,1,https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-TH1/2345104?s=N4IgTCBcDaIMoFkCCBaAUigCigEiuAKigTgIwgC6AvkA
