@@ -100,8 +100,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -658,13 +658,18 @@
       {
         "filename": "ee372b-ldo-testbench.kicad_sch",
         "name": "ee372b-ldo-testbench",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "4eaac8a8-2761-424f-b17c-d4cc8c253812"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R57",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "4eaac8a8-2761-424f-b17c-d4cc8c253812",
+      "ee372b-ldo-testbench"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
