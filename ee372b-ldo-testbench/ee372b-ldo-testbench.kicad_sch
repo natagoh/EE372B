@@ -6589,6 +6589,12 @@
 		(uuid "27ecd4d4-b57d-470d-a083-279800df195d")
 	)
 	(junction
+		(at 515.62 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28ffbbf5-4225-45e4-9699-730c14d7488d")
+	)
+	(junction
 		(at 46.99 312.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7057,6 +7063,12 @@
 		(uuid "c7377aa8-c6b6-4b72-a0e9-eec78d3e4d17")
 	)
 	(junction
+		(at 499.11 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c798bc9c-c5d3-4c10-8fe5-80f493938a66")
+	)
+	(junction
 		(at 476.25 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7420,6 +7432,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 97.79) (xy 499.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b265613-8fa4-48a7-af25-4c8879343efd")
+	)
+	(wire
+		(pts
 			(xy 354.33 80.01) (xy 354.33 83.82)
 		)
 		(stroke
@@ -7607,6 +7629,16 @@
 			(type default)
 		)
 		(uuid "19efeb6b-49e4-485f-bd92-d61504002808")
+	)
+	(wire
+		(pts
+			(xy 499.11 110.49) (xy 500.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bba2438-0663-460b-8d67-976dabb67953")
 	)
 	(wire
 		(pts
@@ -8560,7 +8592,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 110.49) (xy 500.38 110.49)
+			(xy 490.22 110.49) (xy 499.11 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8837,6 +8869,16 @@
 			(type default)
 		)
 		(uuid "6bca854a-107d-431d-a1b6-d8852daab723")
+	)
+	(wire
+		(pts
+			(xy 515.62 97.79) (xy 515.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bddc936-4953-4977-a2cb-f489168c8fbc")
 	)
 	(wire
 		(pts
@@ -9820,6 +9862,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 110.49) (xy 520.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a6fe60-03d1-44b5-bcbe-8550f8d38936")
+	)
+	(wire
+		(pts
 			(xy 255.27 303.53) (xy 264.16 303.53)
 		)
 		(stroke
@@ -10160,7 +10212,7 @@
 	)
 	(wire
 		(pts
-			(xy 508 110.49) (xy 520.7 110.49)
+			(xy 508 110.49) (xy 515.62 110.49)
 		)
 		(stroke
 			(width 0)
@@ -21478,6 +21530,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 515.62 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90a4be01-63df-45ed-a185-24854b4a01f7")
+		(property "Reference" "TP19"
+			(at 519.43 94.9324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 519.43 97.4724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 520.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 520.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 515.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb1a3ac2-0ada-4b1c-a6a0-a4fc61e3d9ce")
+		)
+		(instances
+			(project "ee372b-ldo-testbench"
+				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 356.87 71.12 0)
 		(mirror y)
@@ -23847,6 +23978,85 @@
 			(project "ee372b-ldo-testbench"
 				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 499.11 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b37eb504-ebae-46c4-aa59-b7bd2e72d384")
+		(property "Reference" "TP18"
+			(at 502.92 94.9324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 502.92 97.4724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 504.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 504.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 499.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb7303bd-cc4a-427c-a212-d0e195fccebc")
+		)
+		(instances
+			(project "ee372b-ldo-testbench"
+				(path "/4eaac8a8-2761-424f-b17c-d4cc8c253812"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
