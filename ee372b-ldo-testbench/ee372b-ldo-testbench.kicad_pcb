@@ -29628,7 +29628,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at -2.325865 -0.018809 65)
+			(at -2.325866 -0.018809 65)
 			(layer "F.Fab")
 			(uuid "4c7cb5f4-99c0-43df-9bad-cfeffa88681a")
 			(effects
@@ -29776,7 +29776,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at -2.416495 0.023452 65)
+			(at -2.416494 0.023452 65)
 			(layer "F.Fab")
 			(uuid "9759a5d2-b9df-4e69-bfad-5ff25d5183bf")
 			(effects
@@ -33905,7 +33905,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "EXT\nVREF\nOUT\n"
+	(gr_text "EXT\nVREF\n"
 		(at 231.5 38.3 0)
 		(layer "F.SilkS")
 		(uuid "47684273-78c3-4d07-8960-bce1abbca54f")
@@ -33941,8 +33941,8 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "VREF_EXT\nINPUT"
-		(at 207.8 31 0)
+	(gr_text "VOUT"
+		(at 207.1 28.5 0)
 		(layer "F.SilkS")
 		(uuid "094b5445-5023-4528-a8dd-3eced22cddac")
 		(effects

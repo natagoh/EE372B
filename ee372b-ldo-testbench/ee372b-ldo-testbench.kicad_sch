@@ -6535,6 +6535,12 @@
 		(uuid "06a86554-93aa-4fa7-ac94-53d1a5e27db8")
 	)
 	(junction
+		(at 181.61 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a940ffd-4c4e-4eb0-97a0-fa00b4b0a290")
+	)
+	(junction
 		(at 104.14 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6683,6 +6689,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4302ec25-55bc-49f8-a572-9a784f47de76")
+	)
+	(junction
+		(at 252.73 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "444df5d1-441a-4d08-8dc0-c5de34e7ab1a")
 	)
 	(junction
 		(at 307.34 114.3)
@@ -7782,6 +7794,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 177.8) (xy 255.27 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2983d993-7b15-499a-9728-f136436a581f")
+	)
+	(wire
+		(pts
 			(xy 365.76 270.51) (xy 372.11 270.51)
 		)
 		(stroke
@@ -8272,7 +8294,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 80.01) (xy 194.31 80.01)
+			(xy 172.72 80.01) (xy 181.61 80.01)
 		)
 		(stroke
 			(width 0)
@@ -9402,6 +9424,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 177.8) (xy 252.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8921683b-6e0b-41e6-9d9c-b926b8cfa2a0")
+	)
+	(wire
+		(pts
 			(xy 538.48 294.64) (xy 538.48 288.29)
 		)
 		(stroke
@@ -9599,6 +9631,16 @@
 			(type default)
 		)
 		(uuid "95278183-194e-4193-8d5d-2fe923ae73aa")
+	)
+	(wire
+		(pts
+			(xy 252.73 151.13) (xy 181.61 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955b98fa-e749-47e2-ad9a-a57c672463e5")
 	)
 	(wire
 		(pts
@@ -10022,6 +10064,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 80.01) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb1b16f-529e-4ccc-8f23-05b9e138219e")
+	)
+	(wire
+		(pts
 			(xy 397.51 295.91) (xy 408.94 295.91)
 		)
 		(stroke
@@ -10152,7 +10204,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 177.8) (xy 255.27 177.8)
+			(xy 248.92 177.8) (xy 252.73 177.8)
 		)
 		(stroke
 			(width 0)
@@ -10799,6 +10851,16 @@
 			(type default)
 		)
 		(uuid "dfe7b136-13d3-4e99-ac97-d55b349892f2")
+	)
+	(wire
+		(pts
+			(xy 181.61 151.13) (xy 181.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19ed5de-4ca2-4f0e-9b73-8493ad00573d")
 	)
 	(wire
 		(pts
@@ -11899,6 +11961,16 @@
 			(justify left bottom)
 		)
 		(uuid "7f1e6144-96a3-4ebe-9dc9-70228d43552a")
+	)
+	(label "1V8"
+		(at 247.65 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8614d9e8-5634-4c9d-917f-0a716ae088d6")
 	)
 	(label "BGR_VREF"
 		(at 323.85 115.57 180)
@@ -17371,6 +17443,7 @@
 		)
 		(property "Value" "1V8"
 			(at 244.475 175.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -65,6 +65,8 @@ gates = [Pin(p, Pin.OUT, value=0) for p in GATE_PINS]
 def set_load(code):
     for i, g in enumerate(gates):
         g.value((code >> i) & 1)
+    
+    print(load_ohms(code))
 
 def load_ohms(code):
     g = sum(1 / BRANCH_R[i] for i in range(5) if (code >> i) & 1)
@@ -87,11 +89,15 @@ def sweep(adc, settle_ms=20, n_avg=4):
     print("done")
 
 
-adc = ADS1220()
-print("ready: send 's' to sweep, 'r' for a single read")
-while True:
-    cmd = sys.stdin.readline().strip()
-    if cmd == "s":
-        sweep(adc)
-    elif cmd == "r":
-        print([adc.read_volts(ch) for ch in (0, 1, 2)])
+set_load(1)
+time.sleep_ms(settle_ms)
+set_load(0) 
+
+# adc = ADS1220()
+# print("ready: send 's' to sweep, 'r' for a single read")
+# while True:
+#     cmd = sys.stdin.readline().strip()
+#     if cmd == "s":
+#         sweep(adc)
+#     elif cmd == "r":
+#         print([adc.read_volts(ch) for ch in (0, 1, 2)])
